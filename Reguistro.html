@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Net Ting</title>
+   <link rel="stylesheet" href="style/style.css">
+   <link rel="stylesheet" href="style/style3.css">
+</head>
+<body>
+  <div class="recuadro">
+   <div class="titulo">Net Ting.</div>
+<!-- Página de Registro -->
+ <a href="index.html">Inicio</a>
+<!-- Página de Registro -->
+
+<form id="registro-form">
+  <h2>Registro</h2>
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+  <label for="correo">Correo:</label>
+  <input type="email" id="correo" name="correo" required><br><br>
+  <label for="contrasena">Contraseña:</label>
+  <input type='password' id='contrasena' name='contrasena' required><br><br>
+  <button type="submit">Registrar</button>
+</form>
+
+<script>
+  const registroForm = document.getElementById('registro-form');
+  let contador = localStorage.getItem('contador') || 0;
+
+  registroForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById('nombre').value;
+    const correo = document.getElementById('correo').value;
+    const contrasena = document.getElementById('contrasena').value;
+
+    // Crear un objeto con la información del usuario
+    const usuario = {
+      id: contador,
+      nombre: nombre,
+      correo: correo,
+      contrasena: contrasena
+    };
+
+    // Convertir el objeto a una cadena de texto
+    const textoUsuario = JSON.stringify(usuario);
+
+    // Crear un blob con la información del usuario
+    const blob = new Blob([textoUsuario], {type: 'text/plain'});
+
+    // Crear una URL que apunte al blob
+    const url = URL.createObjectURL(blob);
+
+    // Descargar el archivo
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `usuario_${contador}.txt`;
+    a.click();
+
+    // Incrementar el contador y guardarlo en localStorage
+    contador++;
+    localStorage.setItem('contador', contador);
+
+    alert('Registro exitoso!');
+  });
+</script>
+  </div>
+</body>
+</html>
