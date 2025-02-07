@@ -1,0 +1,22 @@
+ body {
+        font-family: Arial,sans-serif;
+        margin: 0;
+        padding: 0;
+}
+.ajustes {
+    text-align: center;
+    font-size: 9px;
+    color: chartreuse ;
+    border: 0.10px solid #ddd;
+    border-radius: 50px;
+    background-color: beige;
+    color: Blak;
+}
+   .boton:hover {
+    background-color: #e8e41;
+}
+.contenedor-botones {
+    display: flex;
+    justify-content(space-between);
+    gap: 10px
+}

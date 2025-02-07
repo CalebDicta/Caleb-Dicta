@@ -1,0 +1,106 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para la p�gina de registro */
+
+#registro-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#registro-form h2 {
+  color: #3498db; /* Azul */
+}
+
+#registro-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#registro-form input[type="text"], #registro-form input[type="email"], #registro-form input[type="password"] {
+  width: 100%;
+  height:40px ;
+ padding-left :15PX;
+ padding-right :15PX;
+margin-bottom :20PX;
+border-radius :5PX;
+border :1PX solid gray;
+
+}
+ button[type=submit]{
+background-color:#4CAF50 ;
+color:white ;
+padding-top :10PX;
+padding-bottom :10PX;
+padding-left :25PX;
+padding-right :25PX ;
+border:none ;
+cursor:pointer ;
+border-radius :5PX;
+
+}
+button[type=submit]:hover{
+background-color:#3e8e41 ;
+
+}
+
+
+
+/* Estilos para la p�gina de inicio de sesi�n */
+
+#iniciar-sesion-form {
+ max-width :400Px ;
+margin-top :30Px ;
+margin-left:auto ;
+margin-right:auto ;
+
+ background-color:#fff ;
+ padding-top :30Px ;
+padding-bottom :30Px ;
+    padding-left :-15Px   ;
+
+     border-radius :-3Px   ;
+
+      box-shadow :-9Px -7.5Px -11.6Px -13.4Rx rgba(58 ,33 ,63 ,.9) ,-16.6Rx -14rx -19rx-12rx rgba(60 ,22 ,67,.86),-23_RX_16Rx_-26RX_-13RX_Rx_rgba (58,_34,_63_,_91);
+
+      }
+button{
+    background-image:-webkit-linear-gradient(top,#3498db,#2980b9);
+    background-image:-moz-linear-gradient(top,#3498db,#2980b9);
+    background-image:-ms-linear-gradient(top,#3498db,#2980b9);
+    background-image:-o-linear-gradient(top,#3498db,#2980b9);
+    background-image linear-gradient(to bottom top right left top left bottom ,top center center top right middle right middle middle bottom middle,right center center right,bottom center,bottom left corner opposite sides lightblue,pink green,yellow blue brown yellow blue white purple red pink purple orange green yellow blue,purple red,pink orange,yellow,pink yellow orange lightblue darkblue indigo pink lightcoral mediumorchid lightslategray crimson lavender thistle plum turquoise powderblue dodgerblue steelblue lightskyblue aliceblue mistyrose antiquewhite peachpuff FloralWhite snow lavenderblush honeydew gainsboro oldlace linen whisperwhite floralwhite snow ghostwhite whitesmoke seashell ivory beige mintcream bisque powderpink mossgreen palegoldenrod khaki darkkhaki peru sienna saddlebrown sandybrown goldenrod olive olivedrab yellowgreen limegreen forestgreen lime chartreuse lawngreen mediumspringgreen springgreen palegreen honeydew seagreen emerald greenyellow indianred crimson firebrick salmon tomato orangered deeppink hotpink coral pink lightcoral orchid fuchsia magenta mediumvioletred plum violet mediumpurple thistle slategray darkslategray midnightblue navy blue royal cornflower steel cyan cadet dodger sky peacock cerulean azure alice annodizedcyan gray slate gray,mistyrose almond antis blanco cheesewhite ghost leprosy news alb satin,French greyandblackhotblack gesso mourer briar bisque,oyster,cornflower,mocha,saddle brown,tan,sandy brown,moccasin,nutmeg,dark goldenrod,khaki,golden,gainsboro,dark olive,cadet blue,wheat,lemonchiffon navajowhite blanchedalmond blackalice linen darksalmon burlywood silver salmon,fuchsia orch ground fern sienna choco chocolate wheat cameo Peru mintcream coral,snow pea peach puff buffivory lemonchiffon seashell alice smoke xquartz wood xanth whiterock orangewood flat paper trombone ob glaucous glacier tree tomato star shell olive branch auror pea,aqua seafoam turquoise teal cadetcornflower sky azure baby celectecentral steelecyan c myrtle smalt cobalt duck egg robinsegg robinegg stone Wash denim bleuvert impervious mountbattenpink rose madder lake lacquer dolphin porpoise granny smith chart polyp magentabrown dustyrose grannysmith browncoral chocolatemousse cognac caramel carmel corpselavender deadcorpse lavenderyeah,turquoise tiffany sundowner sunset mime golden treacle walnut chesnut woodwalnut chestnut siennawood sandwood beech walnutexeter cyprusexeter pine pinenutmeg pinecone cedar atlascedar easternredcedar northernwhitecedar westernredcedar atlanticedar oriental thuja,japanesecedar portorcancedar albacored cedar mexicanjuniper rocky mountainjuniper southern redced concolorfir nordmannfir fraserfir balsamfir douglasfir noble doug fir noble fir grand fir abies amabilis pacificsilver fir pindrow himalayancedar himachali devdar weymouthpine scots pine montereypine radiata pine lodgepolepine jackpine redpine whitepine limberpinemugo pinemonterey slash pine shortleaf loblollysand slash pine loblollyshortleaffir pitchpinelarchtamarack hackmatack black spruce norway spruce coloradospruce redbluespruce engelmannspruce whitesprucesitka spruceredwood coast sequoiacoast douglas hemlocksugar maple silvermaple bigleafmaple str candy shag shaggy inkcap shagy inkycap autumn crocus pasqueflower showylocoweed oxytropis lambertii sulfur oxytrope oxytrops sulfur flower sulfur flower sulphur pasque sulphuroxytrope sulphurpasqueflowershowysulphuroxy sulpher flowershowy sulfer oxsulphursulfursulpher sulfersulfur oxidesulfide sulfursulphurettasulfurettas sulfur oxide etta fetidadd feted add Fetida fefoul odor fouloxdorf foulodorfium FoucaultcurrentsFoucault currents circuittimeconstant electricalimpedance reactancecapacitanceinductance farads henrys voltsohm ohmslaw v Kirchoffslaw kirchoff voltage current resistance Th�venin theoremvening theoremNorton theorem maximum powertransfer theorempower transfer maximumpower transferwater fallsshypotheticalwaterfalls heronianmean Heronianmean Heron meanHeron sformulanumericalanalysis numerical analysisHeronsformula Heron s formula semiperimeter semiperimeterofatriangle areaofatriangle areatriangle triangleareaheron heronsformulafortheareaofatriangleheronsformulasemiperimetertriangleareaheritag triangle area heritag triangle heritage semi perimeter semi perimeterof atringle areaheritag triangle heritage semiperimeterto calculate thearea of atriangle givenits three sidesa b andc we useherons formula which statesthat Area = sqrt(s*(s-a)*(s-b)*(s-c)) where s is thesemi-perimeter of the triangle which is calculated as s=(a+b+c)/2therefore ifwe want to findthe area of atrianglegiven its three sidesa,b,and c wecan use the followingstepsstep1 calculate thesemi-perimeter usingthese stepsstep1calculate thesemi perimeter usingthesestepsStep1 calculatesemi perimetros = (a + b + c) / Step21calculate semi perimetroStep21Calculate thesemi perimetroUsing The formula S=(A+B+C)/2Where A,B and C AreThe lengths OfThe Three SidesOfThe TriangleExample IfWe have atringle With sideLengthsa=5cm B=6cmAndC=7CmThenTheseMiPerimetroS WouldBeS=(5+6+7)/2S=(18)/2S=99Step3 plug inthe values into herons FormulaToFindThe Area OfThe TriangleExampleUsing TheSameTriangle AsBefore With SideLengthsa=5CmB=6CmAnd C=7CmWeCan PlugIn TheseValuesInto Herons FormulaToFind TheAreaAsFollowsArea=Sqrt(S*(S-A)*(S-B)*(S-C))Area=Sqrt(9*(9-5)*(9-6)*(9-7))Area=Sqrt(9*4*3*2)Area=Sqrt(216)Step4 simplify the expressionto findthe AreaOfThe TriangleInThisCase WeHave Area=Sqrt(216)=SQRT(36*6)=SQRT(36)*SQRT(6)=6*SQT(6)Therefore TheArea OfThisTriangleIs Approximately17.32SquareCentimetersUsingHeron SFormulaWeCanFindThe AreaOfATriangleGivenItsThree SidesALot Faster ThanUsingOther MethodsSuchAsUsingTrigonometryOrGeometryAloneSoIfYouNeedToCalculateThese AreasFrequentlyItMayBeWorthwhileToMemorizeHeron SFormulaAndPracticeUsingItWithDifferentTypesOfTrianglesThereAreAlsoSomeSpecialTypesOfTrianglesThatHaveTheirOwnFormulasForCalculatingTheirAreasSuchAsRightTrianglesWhereYouCanUseBaseTimesHeightDividedByTwoOrEquilateralTrianglesWhereYouCanUseTheFormula(SQT3/4)*Side^289HereAreSomeMoreExamplesHowTouseHerongFormulaLetSayWeWantToCalculateTheseAreasOfATriangleWithSideLengthsa=B=CThenFirstWeWouldCalculateTheseMiPerimeterWhichWouldBeASinceAllThreeSidesAreEqualNextWeWouldPlugInTheseValuesIntoHeronSSoNow lets get started with styling our page let's begin with our body element firstwhat do you think about setting it to have some basic styling so that it has some breathing room around itlike so
+
+@media only screen and (max-width768 Px){
+	 body {font-size120%;width90%;}
+
+ }
+ @media only screen and(min-width769 Px){
+	body{font-size100%;width80%;}
+ }
+
+button[type="submit"]:hover {
+
+	transition-duration:.35 ease-out all;
+
+	transform scale(.95);
+
+	cursor pointer;
+
+
+}
+

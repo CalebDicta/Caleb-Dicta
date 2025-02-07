@@ -1,0 +1,40 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.recuadro {
+    width: 500px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 59px;
+    padding: 20px;
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    color: chartreuse ;
+}
+.boton {
+    width: calc(70% - 5px);
+    height: 50px;
+    background-color: #3498db;
+    color: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: #e8e41;
+}
+.contenedor-botones {
+    display: flex;
+    justify-content(space-between);
+    gap: 10px
+}
+.titulo1 {
+    text-align: center;
+    font-size: 20px;
+    color: chartreuse ;
